@@ -23,7 +23,7 @@ static extern int MoveFileExA (string AExistingFileName, string ANewFileName, in
      }
      string FileToDelete = args[0];
      if (File.Exists(FileToDelete)||Directory.Exists(FileToDelete))  {
-       System.Console.WriteLine("{0} marked for deletion on reboot", new Object[] {FileToDelete});
+       System.Console.WriteLine("{0} marked for deletion on reboot.", new Object[] {FileToDelete});
        MoveFileExA(FileToDelete, null, MOVEFILE_DELAY_UNTIL_REBOOT);
      } else {
         System.Console.WriteLine("File \"{0}\" doesn't exist.", new Object[] {FileToDelete});
