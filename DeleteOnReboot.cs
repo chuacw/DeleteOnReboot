@@ -15,7 +15,7 @@ class DeleteOnRebootConsole
 
     public static void Main(string[] args)
     {
-        Console.WriteLine("DeleteOnReboot v0.9 Copyright (C) 2017-20 Chua Chee Wee");
+        Console.WriteLine("DeleteOnReboot v0.9 Copyright © 2017-20 Chua Chee Wee");
         Console.WriteLine("Usage: DeleteOnReboot [filename]");
         Console.WriteLine();
         
